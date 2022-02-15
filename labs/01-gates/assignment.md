@@ -2,11 +2,11 @@
 
 ### De Morgan's laws
 
-1. Equations of all three versions of logic function f(c,b,a):
+#### 1. Equations of all three versions of logic function f(c,b,a):
 
    ![Logic function](images/equations.png)
 
-2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+#### 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
 architecture dataflow of demorgan is
@@ -17,7 +17,7 @@ begin
 end architecture dataflow;
 ```
 
-3. Complete table with logic functions' values:
+#### 3. Complete table with logic functions' values:
 
 | **c** | **b** |**a** | **f(c,b,a)_ORG** | **f(c,b,a)_NAND** | **f(c,b,a)_NOR** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
