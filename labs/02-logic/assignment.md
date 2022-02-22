@@ -1,4 +1,4 @@
-# Lab 2: YOUR_FIRSTNAME LASTNAMEE
+# Lab 2: Patrik Horčička
 
 ### 2-bit comparator
 
@@ -51,4 +51,4 @@
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/x/M8FN)
+   [https://www.edaplayground.com/](https://www.edaplayground.com/x/M8FN)
