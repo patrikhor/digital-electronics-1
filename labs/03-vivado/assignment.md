@@ -9,9 +9,9 @@ architecture Behavioral of mux_3bit_4to1 is
 begin
 
     with addr_i select
-    y_o <= a_i when "00",  -- If addr_i = "000" then y_o = a_i
-           b_i when "01",
-           c_i when "10",
+    y_o <= a_i when "000",  -- If addr_i = "000" then y_o = a_i
+           b_i when "001",
+           c_i when "010",
            d_i when others;  
 
 end architecture Behavioral;
