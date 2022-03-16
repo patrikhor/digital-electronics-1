@@ -50,8 +50,8 @@ In this laboratory exercise, you will study the differences between a statically
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Remember/hold values, no change |
-   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Remember/hold values, no change |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | Input signal is sampled at rising edge of clk and stored to FF |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | Remember/hold values, no change |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Input signal is sampled at rising edge of clk and stored to FF |
    | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | Input signal is sampled at rising edge of clk and stored to FF |
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
